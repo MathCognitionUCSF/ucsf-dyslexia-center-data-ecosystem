@@ -1,6 +1,6 @@
 # UCSF Dyslexia Center - Data Ecosystem
 
-[ucsfneuroviz_flowchart_10-18-2023-2.pdf](https://github.com/MathCognitionUCSF/ucsf-dyslexia-center-data-ecosystem/files/13033718/ucsfneuroviz_flowchart_10-18-2023-2.pdf)
+
 
 ## Overview
 
