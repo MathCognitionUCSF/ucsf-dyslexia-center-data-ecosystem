@@ -9,50 +9,58 @@ Data is stored in various databases and structures such as BIDS, REDCap, LAVA, a
 
 ### Pre-processing:
 
-Data undergoes pre-processing using tools on the Wynton HPC. The tools used include sMRIprep for structural MRI, QSIprep for diffusion MRI, and fMRIprep for functional MRI.
+Data undergoes pre-processing using tools on the Wynton HPC. The tools used include:
+* [sMRIprep](https://github.com/nipreps/smriprep) for structural MRI
+* [QSIprep](https://github.com/PennLINC/qsiprep) for diffusion MRI
+* [fMRIprep](https://github.com/nipreps/fmriprep) for functional MRI
 
 ### Post-processing:
 
-Further data refinement is done on both the local machine and Wynton HPC. This includes generating statistical files using Bash scripts, contrasts using Python scripts, and fetching REDCap data using an API.
+Further data refinement is done on both the local machine and Wynton HPC. This includes:
+* Generating statistical files using Bash scripts
+* Generating contrasts using Python scripts
+* [Fetching REDCap data using Python with an API](https://github.com/MathCognitionUCSF/REDCap_tools)
 
 ### Data Standardization:
 
-Data is standardized and stored in specific formats like FreeSurfer metrics, interactive tractography, and CSV files.
+* Data is standardized in specific formats like FreeSurfer metrics, interactive tractography, and CSV files
+* Data is stored in a consistent and easy to follow file structure on secure UCSF drives.
 
 ### Data Analysis:
 
-Advanced analysis, including machine learning predictions and group comparisons, are done using Wynton HPC & Local Machine.
-Encoding/Decoding models using tools like nilearn and nibabel are applied.
+* Advanced analysis, including machine learning predictions and group comparisons, are done using [Wynton HPC](https://wynton.ucsf.edu/hpc/index.html), which is UCSF's High Performance Cluster. Additional steps are performed on local machine such as visualization generation.
+* Encoding/Decoding models linking brain and behavior are implemented using Python tools such as [nilearn](https://github.com/nilearn/nilearn) and [nibabel](https://github.com/nipy/nibabel).
 
-### Ucsfneuroviz Browser:
+### [Ucsfneuroviz](https://github.com/MathCognitionUCSF/ucsfneuroviz) Browser:
 
-This browser allows visualization of the Structural MRI, Diffusion MRI, Functional MRI, and Behavioral scores.
+The browser allows dynamic and interactive visualization of Structural MRI, Diffusion MRI, Functional MRI, and behavioral scores.
+We will also implement a section for publication-grade visualizations of analysis results.
 
 ### Supporting Tools:
 
-Python: Used for scripting, generating Jupyter notebooks, and handling data.
-Voilà: Converts Jupyter notebooks into interactive dashboards.
-Binder: Allows for sharing of data via Git, making the entire process reproducible without requiring local machine setup.
+* [Python](https://www.python.org/): Used for scripting, generating Jupyter notebooks, and handling data.
+* [Voilà](https://voila.readthedocs.io/en/stable/): Converts Jupyter notebooks into interactive dashboards with minimal setup.
+* [Binder](https://mybinder.org/): Allows for sharing of data via Git, making the entire process reproducible without requiring local machine setup.
 
 ## Pros of this Approach
 
-### 1. Flexibility
+### 1. Flexible
 The ecosystem is designed to easily accommodate various data types and sources.
 
-### 2. Modularity
+### 2. Modular
 Each step in the process is clearly defined, allowing for individual modules to be updated or replaced without disrupting the entire system.
 
-### 3. Robustness
+### 3. Robust
 With the use of established tools and databases, the pipeline ensures reliability and accuracy in data processing and analysis.
 
-### 4. Readiness for Multimodal & Multicenter Data
+### 4. Ready for Multimodal & Multicenter Data
 The structure is ready to handle diverse data types from various centers, ensuring a wide range of applicability.
 
-### 5. Preparation for Data Sharing
+### 5. Prepared for Data Sharing
 With the use of BIDS format, the system is already aligned with standards for data sharing in the neuroscience community.
 
 ### 6. Integrative Approach
 Instead of creating new data storage tools and attempting to reinvent our entire system, this ecosystem smartly integrates established tools like REDCap and LAVA, ensuring best practices are followed.
 
-### 7. Security
+### 7. Secure Platform
 Tools like Voilà ensure that while data can be accessed and visualized, the raw data remains secure.
