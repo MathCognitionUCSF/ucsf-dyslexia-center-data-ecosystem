@@ -1,6 +1,6 @@
 # UCSF Dyslexia Center - Data Ecosystem
 
-![images](/ucsfneuroviz_flowchart_10-18-2023-2.png)
+![images](/ucsfneuroviz_flowchart_10-18-2023-2.png) 
 
 ## Overview
 
