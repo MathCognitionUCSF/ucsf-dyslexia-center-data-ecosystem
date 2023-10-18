@@ -1,5 +1,7 @@
 # UCSF Dyslexia Center - Data Ecosystem
 
+[ucsfneuroviz_flowchart_10-18-2023-2.pdf](https://github.com/MathCognitionUCSF/ucsf-dyslexia-center-data-ecosystem/files/13033718/ucsfneuroviz_flowchart_10-18-2023-2.pdf)
+
 ## Overview
 
 ### Raw Data:
@@ -8,10 +10,10 @@ Sources of data include Structural MRI, Diffusion MRI, Functional MRI, and Behav
 
 Data is stored in various databases:
 * [REDCap](https://redcap.ucsf.edu/)
-* [LAVA](https://knect.ucsf.edu/brainsight/](https://github.com/UCSFMemoryAndAging/lava)
+* [LAVA](https://knect.ucsf.edu/brainsight/](https://github.com/UCSFMemoryAndAging/lava/)
 * [MAC Imaging-Core](https://github.com/UCSFMemoryAndAging/imaging-core)
 
-Imaging data is stored in a standardized structure [BIDS](https://bids.neuroimaging.io/)) format on UCSF secure drives.
+Imaging data is stored in a standardized structure [BIDS](https://bids.neuroimaging.io/) format on UCSF secure drives.
 
 ### Pre-processing:
 
