@@ -36,7 +36,7 @@ Further data refinement is done on both the local machine and Wynton HPC. This i
 
 ### Data Analysis:
 
-* Advanced analysis, including machine learning predictions and group comparisons, are done using [Wynton HPC](https://wynton.ucsf.edu/hpc/index.html), which is UCSF's High Performance Cluster. Additional steps are performed on local machine such as visualization generation.
+* Advanced analysis, including machine learning predictions and group comparisons, are done using [Wynton HPC](https://wynton.ucsf.edu/hpc/index.html), which is UCSF's High Performance Cluster. Less computationally intensive analysis steps may be performed on local machine.
 * Encoding/Decoding models linking brain and behavior are implemented using Python tools such as [nilearn](https://github.com/nilearn/nilearn) and [nibabel](https://github.com/nipy/nibabel).
 
 ### [Ucsfneuroviz](https://github.com/MathCognitionUCSF/ucsfneuroviz) Browser:
