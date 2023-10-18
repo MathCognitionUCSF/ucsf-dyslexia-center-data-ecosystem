@@ -13,7 +13,7 @@ Data is stored in various databases:
 * [LAVA](https://github.com/UCSFMemoryAndAging/lava/)
 * [MAC Imaging-Core](https://github.com/UCSFMemoryAndAging/imaging-core)
 
-Imaging data is stored in a standardized structure [BIDS](https://bids.neuroimaging.io/) format on UCSF secure drives.
+Dyslexia Center neuroimaging data is stored in a standardized structure called [BIDS](https://bids.neuroimaging.io/) on UCSF secure drives.
 
 ### Pre-processing:
 
@@ -65,10 +65,10 @@ With the use of established tools and databases, the pipeline ensures reliabilit
 The structure is ready to handle diverse data types from various centers, ensuring a wide range of applicability.
 
 ### 5. Prepared for Data Sharing
-With the use of BIDS format, the system is already aligned with standards for data sharing in the neuroscience community.
+With the use of [BIDS](https://bids.neuroimaging.io/) format, the system is already aligned with standards for data sharing in the neuroscience community.
 
 ### 6. Integrative Approach
-Instead of creating new data storage tools and attempting to reinvent our entire system, this ecosystem smartly integrates established tools like REDCap and LAVA, ensuring best practices are followed.
+Instead of creating new data storage tools and attempting to reinvent our entire previous system, this ecosystem smartly integrates established tools like REDCap and LAVA, ensuring best practices are followed.
 
 ### 7. Secure Platform
 Tools like Voilà ensure that while data can be accessed and visualized, the raw data remains secure.
